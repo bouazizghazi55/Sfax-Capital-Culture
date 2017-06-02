@@ -1,0 +1,74 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ghazi.sfaxcapitaleculture.MonuAncienVille"
+    android:background="#070707">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="المدينة العتيقة"
+            android:id="@+id/textView12"
+            android:layout_gravity="center_horizontal"
+            android:textColor="#A18860"
+            android:textSize="25dp"
+            android:paddingTop="10dp" />
+
+        <ViewFlipper
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="275dp"
+            android:id="@+id/viewFlipper4"
+            android:autoStart="true"
+            android:flipInterval="1700"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView16"
+                android:src="@drawable/medina1"
+                android:layout_gravity="center"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView17"
+                android:src="@drawable/medina2"
+                android:layout_gravity="center"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView18"
+                android:src="@drawable/medina3"
+                android:layout_gravity="center"/>
+        </ViewFlipper>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="المدينة العتيقة بصفاقس هي إحدى المدن العتيقة في البلاد التونسية. تأسّست في أواسط القرن التاسع ميلادي على يد علي بن أسلم البكري، زمن حكم الدولة الأغلبية في إفريقية. تعتبر أقدم جزء من مدينة صفاقس، وهي محاطة بسور تاريخيّ يعتبر السور الوحيد المتواصل في كامل البلاد التونسية، إذ لا يمكن دخول المدينة إلاّ من أحد أبوابها ومداخلها الخمسة عشر وهي تعتبر من أهم المعالم في الوطن العربي"
+            android:id="@+id/textView13"
+            android:layout_gravity="right"
+            android:textColor="#A18860"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="10dp" />
+    </LinearLayout>
+    </ScrollView>
+</FrameLayout>

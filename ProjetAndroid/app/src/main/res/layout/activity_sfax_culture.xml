@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    tools:context="com.example.ghazi.sfaxcapitaleculture.SfaxCulture"
+    android:background="#070707">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:weightSum="1">
+
+        <ImageView
+            android:layout_width="324dp"
+            android:layout_height="215dp"
+            android:id="@+id/imageView5"
+            android:src="@drawable/sfax4"
+            android:paddingLeft="5dp"
+            android:paddingTop="5dp"
+            android:paddingRight="5dp"
+            android:layout_gravity="center"
+            android:layout_weight="0.06" />
+       
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:id="@+id/textView"
+            android:textColor="#A18860"
+            android:gravity="right"
+            android:text="تعتبر مدينة صفاقس أحد أنشط المدن التّونسيّة ثقافيّا، حيث تنظّم في صفاقس كلّ سنة عدد من المهرجانات، وهي  مهرجان سيدي منصور، مهرجان صفاقس الدولي، الملتقى الدولي لموسيقات العالم، من تنظيم جمعية نهاوند، مهرجان المدينة، مهرجان استخبار للموسيقات، من تنظيم المعهد العالي للموسيقى بصفاقس، مهرجان قرمدة و مهرجان الشيحية. وعلاوة على المهرجانات الخاصة بالمدينة، تحتفل صفاقس كلّ سنة بتظاهرات وطنية ثقافية،أبرزها شهر التراث و أكتوبر الموسيقي                                                                           بفضل هذا النّشاط الدّؤوب، أعلنت المنظمة العربية للتربية والثقافة والعلوم صفاقس عاصمة الثقافة العربية سنة 2016."
+            android:layout_weight="0.22"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+</RelativeLayout>

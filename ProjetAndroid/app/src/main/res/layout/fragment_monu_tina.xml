@@ -1,0 +1,70 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ghazi.sfaxcapitaleculture.MonuTina"
+    android:background="#070707">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="آثار طينة"
+            android:id="@+id/textView23"
+            android:layout_gravity="center_horizontal"
+            android:textColor="#A18860"
+            android:textSize="25dp"
+            android:padding="10dp" />
+
+        <ViewFlipper
+            android:layout_width="wrap_content"
+            android:layout_height="302dp"
+            android:id="@+id/viewFlipper9"
+            android:padding="5dp"
+            android:layout_gravity="center"
+            android:autoStart="true"
+            android:flipInterval="1700">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView28"
+                android:src="@drawable/tina2"
+                android:layout_gravity="center"/>
+
+            <ImageView
+                android:layout_width="400dp"
+                android:layout_height="400dp"
+                android:id="@+id/imageView27"
+                android:src="@drawable/tina1"
+                android:paddingBottom="10dp"
+                android:adjustViewBounds="false"
+                android:layout_gravity="center"/>
+
+
+        </ViewFlipper>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="هي عبارة عن مدينة رومانية أثرية تقع جنوب صفاقس، و قد ازدهرت هذه المدينة في القرن الثاني والثالث للميلاد، و قد احتوت على عدة مقابر و فسيفساء و حمامات..."
+            android:id="@+id/textView24"
+            android:layout_gravity="right"
+            android:textColor="#A18860"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="10dp" />
+    </LinearLayout>
+    </ScrollView>
+</FrameLayout>

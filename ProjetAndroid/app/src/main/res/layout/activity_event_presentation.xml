@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/scrollView"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.ghazi.sfaxcapitaleculture.EventPresentation">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+        android:background="#070707">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="صفاقس عاصمة للثقافة العربية"
+        android:id="@+id/textView26"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="#A18860"
+        android:textSize="25dp"
+        android:padding="10dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="مبادرة عاصمة الثقافة العربية هي مبادرة لليونسكو جائت على غرار عاصمة الثقافة الأوروبية، و شرع في تطبيقها سنة 1996."
+        android:id="@+id/textView27"
+        android:layout_below="@+id/textView26"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:textColor="#A18860"
+        android:textSize="20dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="يهدف مشروع العواصم الثقافية  إلى النهوض بالثقافة العربية و الثقافة الوطنية و تأكيد أهمية حضور تعبيراتها المتنوعة في المجتمع عبر المجال الثقافي، الإجتماعي، الفكري، و الإبداعي في تأكيد الهوية و تعزيز مقوماتها الروحية و الجمالية و الرمزية، و بنفس القدر، إبراز الدور الحاسم للبعد الثقافي في خدمة التنمية. كما يسعى المشروع أيضا إلى تنشيط المبادرات الفنية و الثقافية الخلاقة و تنمية الإبداع من خلال مشاركة المواطنين في الحياة الثقافية، و تعزيز التعاون الغقليمي و الدولي و توسيع مجالات الحوار الثقافي، و ترسيخ مبدأ الإنفتاح على ثقافات الشعوب و حضاراتهم، و التعريف بقيم التفاهم و التآخي و التسامح و احترام الخصوصيات الثقافية."
+        android:id="@+id/textView28"
+        android:layout_below="@+id/textView27"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:textColor="#A18860"
+        android:textSize="20dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="الرؤية"
+        android:id="@+id/textView29"
+        android:layout_below="@+id/textView28"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:textColor="#A18860"
+        android:textSize="22dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="التواصل مع الذاكرة الثقافية على المستوى الجهوي و الوطني و رسم خط للسياحة الثقافية في الجهة كرافعة للتنمية من خلال تثمين التراث المادي و اللامادي استنادا على التوظيف الثقافي."
+        android:id="@+id/textView30"
+        android:layout_below="@+id/textView29"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:textColor="#A18860"
+        android:textSize="20dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="الهدف العام"
+        android:id="@+id/textView31"
+        android:layout_below="@+id/textView30"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:textColor="#A18860"
+        android:textSize="22dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="ترسيخ المفهوم الديمقراطي للثقافة بكل ما يمثله من التزام بحقوق الإنسان و خاصة حرية الرأي و التعبير و الحق في الثقافة و حرية الإبداع كما كفلها الدستور و على أساس التشاركية و المساواة."
+        android:id="@+id/textView32"
+        android:layout_below="@+id/textView31"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:textColor="#A18860"
+        android:textSize="20dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="الأهداف"
+        android:id="@+id/textView33"
+        android:layout_below="@+id/textView32"
+        android:layout_alignRight="@+id/textView32"
+        android:layout_alignEnd="@+id/textView32"
+        android:textColor="#A18860"
+        android:textSize="22dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="خلق مسالك ثقافية و ادماجها في الخطة الوطنية لترويج التراث الوطني تسويق الثقافة المحلية و الوطنية قصد خلق سوق عربية تحفيز الاستثمار في الصناعة و السياحة الثقافية تحسين جودة الحياة بالجهة من خلال الفعاليات الثقافية الترفيهة و البيئية. تعميق الإعتزاز بالخصوصية الثقافية كعنصر من عناصر الثقافة العربية "
+        android:id="@+id/textView34"
+        android:layout_below="@+id/textView33"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:textColor="#A18860"
+        android:textSize="20dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp" />
+
+
+</RelativeLayout>
+</ScrollView>

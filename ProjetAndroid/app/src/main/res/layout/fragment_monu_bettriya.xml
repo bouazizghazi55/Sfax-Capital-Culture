@@ -1,0 +1,60 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ghazi.sfaxcapitaleculture.MonuBettriya"
+    android:background="#070707">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="1">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="بطرية"
+            android:id="@+id/textView17"
+            android:layout_gravity="center_horizontal"
+            android:textColor="#A18860"
+            android:textSize="25dp"
+            android:padding="10dp" />
+
+        <ViewFlipper
+            android:layout_width="wrap_content"
+            android:layout_height="170dp"
+            android:id="@+id/viewFlipper6"
+            android:layout_gravity="center"
+            android:autoStart="true"
+            android:flipInterval="1700"
+            android:layout_weight="0.36"
+            android:paddingBottom="5dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView21"
+                android:src="@drawable/betriya1"
+                android:layout_gravity="center"/>
+
+        </ViewFlipper>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:id="@+id/textView18"
+            android:textColor="#A18860"
+            android:text="هي عبارة عن مدينة أثرية رومانية تقع في شمال صفاقس ، شيدتها أسرة مهاجرة من مالطا.و قد ازدهرت في القرن الثاني للميلاد ، وقد أبرزت الحفريات قيمتها الأثرية الكبرى حيث توجد أهم أرضيات الفسيفساء المعروضة بمتحف باردو الوطني"
+            android:padding="10dp" />
+
+    </LinearLayout>
+    </ScrollView>
+</FrameLayout>

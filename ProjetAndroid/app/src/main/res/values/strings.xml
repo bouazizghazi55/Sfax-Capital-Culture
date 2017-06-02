@@ -1,0 +1,192 @@
+<resources>
+    <string name="app_name">SfaxCapitaleCulture</string>
+    <string name="title_activity_presentation_sfax">Map</string>
+    <string name="title_activity_sfax_culture">SfaxCulture</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_sfax_museum">SfaxMuseum</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_monument_sfax">MonumentSfax</string>
+    <string name="title_activity_sfax_monument">SfaxMonument</string>
+    <string name="title_activity_sfax_culture2">Map</string>
+    <string-array name="EventName">
+        <item>حفل افتتاح صفاقس عاصمة للثقافة العربية</item>
+        <item>محمد علي كمون:عطور</item>
+        <item>حفل توقيع اتفاقية شراكة بين صفاقس عاصمة للثقافة العربية و القدس الشريف العاصمة الدائمة للثقافة العربية</item>
+        <item>انطلاق طريق الثقافة</item>
+        <item>بوابة المهرجانات:انطلاق سيفاكس</item>
+        <item>صابر الرباعي</item>
+        <item>انطلاق المهرجان الدولي للفنون التشكيلية</item>
+        <item>نجوى كرم</item>
+        <item>الفرقة الوطنية للموسيقى</item>
+        <item>ندوة تاريخ و تراث</item>
+        <item>بسبور</item>
+        <item>كاظم الساهر بصحبة يسرى محنوش</item>
+        <item>لطفي العبدلي</item>
+        <item>ميلاندا دوليتل بمشاركة أوركسترا بوسطن لموسيقى البوب</item>
+        <item>الشاب خالد</item>
+        <item>إيهاب توفيق</item>
+        <item>الفرقة الفنية الصينية</item>
+        <item>سعد لمجرد</item>
+        <item>حسين الديك</item>
+        <item>إنطلاق اللقاء العربي لمسرح الشاعر عبر عن التنوع</item>
+        <item>مسرحية العنف للفاضل الجعايبي</item>
+        <item>وليد التونسي+حسام بن رمضان</item>
+        <item>شيرين عبد الوهاب</item>
+        <item>مهرجان القلة بأولاد يانق في قرقنة</item>
+        <item>الملتقى المتوسطي للفنون التشكيلية</item>
+        <item>انطلاق الملتقى العربي لفن الشوارع</item>
+        <item>مهرجان الفنون الشعبية</item>
+        <item>انطلاق عيشة أجدادنا</item>
+        <item>انطلاق المهرجان الدولي للنحت على الرمال</item>
+        <item>ندوة التعليم الموسيقي الجامعي و معايير الجودة</item>
+        <item>انطلاق المهرجان العربي للكاريكاتير</item>
+        <item>ندوة هبة الزيتون:حرف و مهارات</item>
+        <item>النفاذ المفتوح إلى المنشورات العلمية:بين الإستخدام و حفظ الذاكرة الرقمية</item>
+        <item>الإعلام و الهوية الثقافية</item>
+        <item>ندوة التنمية المستدامة و الجيل الثالث من حقوق الإنسان</item>
+        <item>معرض الكتاب و الوثيقة التاريخية</item>
+        <item>ندوة ثقافة الطفل في زمن التحولات في العالم العربي</item>
+        <item>مهرجان الكمنجة</item>
+        <item>المهرجان العربي للعود</item>
+        <item>أيام الفنون الملتزمة</item>
+        <item>أسبوع سينما المقاومة</item>
+        <item>ندوة سياسات مكافحة الفقر و الإقصاء بالأقطار العربية</item>
+        <item>انطلاق الزيتونة والز</item>
+        <item>الملتقى البينالي العربي للفنون التشكيلية</item>
+        <item>السوق العربية لفنون العرض</item>
+        <item>ندوة سمارت و مشروع صفاقس</item>
+        <item>ملتقى النسيج بالتعاون مع الكريديف و الأليكسو</item>
+        <item>انطلاق معرض التراث الوطني تونس تتجلى</item>
+        <item>المهرجان العربي للقصة المصورة و سينما الطفولة</item>
+        <item>مهرجان السور للفلم العربي</item>
+        <item>ندوة المسرح و السكان</item>
+        <item>أيام المسرح التونسي</item>
+        <item>تريو جبران</item>
+        <item>ندوة صفاقس في عيون الباحثين</item>
+        <item>الملتقى الدولي حول التراث الثقافي اللامادي</item>
+
+    </string-array>
+    <string-array name="EventDescription">
+        <item>باب بحر-ابتداء من 5 مساء</item>
+        <item>باب بحر-ابتداء من 9 مساء</item>
+        <item>بلدية صفاقس</item>
+        <item></item>
+        <item></item>
+        <item>المسرح الصيفي بسيدي منصور</item>
+        <item>المحرس</item>
+        <item>المسرح الصيفي بسيدي منصور</item>
+        <item>ألفة بن رمضان+أيمن لسيق و حسان عمارة</item>
+        <item></item>
+        <item>حاتم القروي و صبري مصباح</item>
+        <item>المسرح الصيفي بسيدي منصور</item>
+        <item>مهرجان عروس البحر قرقنة</item>
+        <item>المسرح الصيفي بسيدي منصور</item>
+        <item>المسرح الصيفي بسيدي منصور</item>
+        <item>مهرجان عروس البحر قرقنة</item>
+        <item>المركب الثقافي محمد الجموسي ابتداء من الساعة التاسعة و النصف ليلا</item>
+        <item>المسرح الصيفي بسيدي منصور</item>
+        <item>مهرجان عروس البحر</item>
+        <item>المعتمديات</item>
+        <item>المسرح الصيفي بسيدي منصور</item>
+        <item>المسرح الصيفي بسيدي منصور</item>
+        <item>المسرح الصيفي بسيدي منصور</item>
+        <item>أولاد يانق في قرقنة</item>
+        <item>صفاقس</item>
+        <item>جزيرة قرقنة</item>
+        <item>المسرح الصيفي سيدي منصور و مختلف المعتمديات</item>
+        <item>قرقنة</item>
+        <item>الشفار</item>
+        <item></item>
+        <item>فضاء فنون</item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item>معرض صفاقس الدولي</item>
+        <item></item>
+        <item>دار الثقافة ساقية الدائر</item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item>كلية الآداب و العلوم الإنسانية بصفاقس</item>
+        <item>zitoon walls</item>
+        <item></item>
+        <item></item>
+        <item>المعهد العالي للفنون و الحرف بصفاقس و بالقطب التكنولوجي</item>
+        <item></item>
+        <item>معرض صفاقس الدولي</item>
+        <item></item>
+        <item>صفاقس</item>
+        <item>صفاقس-عقارب-منزل شاكر</item>
+        <item></item>
+        <item>المركب الثقافي محمد الجموسي</item>
+        <item>كية الآداب و العلوم الإنسانية بصفاقس</item>
+        <item>قرقنة</item>
+
+
+    </string-array>
+    <string-array name="EventDate">
+        <item>23 جويلية</item>
+        <item>23 جويلية</item>
+        <item>24 جويلية</item>
+        <item>24 جويلية</item>
+        <item>24 جويلية</item>
+        <item>24 جويلية</item>
+        <item>26 جويلية</item>
+        <item>26 جويلية</item>
+        <item>28 جويلية</item>
+        <item>28 جويلية</item>
+        <item>29 جويلية</item>
+        <item>30 جويلية</item>
+        <item>30 جويلية</item>
+        <item>31 جويلية</item>
+        <item>1 أوت</item>
+        <item>1 أوت</item>
+        <item>3 اوت</item>
+        <item>3 أوت</item>
+        <item>3 أوت</item>
+        <item>4 أوت</item>
+        <item>8 أوت</item>
+        <item>9 اوت</item>
+        <item>12 أوت</item>
+        <item>12 أوت</item>
+        <item>29 أوت</item>
+        <item>1 سبتمبر</item>
+        <item>5 سبتمبر</item>
+        <item>24 سبتمبر</item>
+        <item>26 سبتمبر</item>
+        <item>10 أكتوبر</item>
+        <item>4 نوفمبر</item>
+        <item>12 نوفمبر</item>
+        <item>1 ديسمبر</item>
+        <item>7 ديسمبر</item>
+        <item>10 ديسمبر</item>
+        <item>15 ديسمبر</item>
+        <item>21 ديسمبر</item>
+        <item>21 ديسمبر</item>
+        <item>21 ديسمبر</item>
+        <item>1 جانفي</item>
+        <item>1 جانفي</item>
+        <item>26 جانفي</item>
+        <item>1 فيفري</item>
+        <item>1 فيفري</item>
+        <item>1 فيفري</item>
+        <item>11 فيفري</item>
+        <item>11 فيفري</item>
+        <item>15 فيفري</item>
+        <item>17 فيفري</item>
+        <item>17 فيفري</item>
+        <item>23 فيفري</item>
+        <item>23 فيفري</item>
+        <item>23 فيفري</item>
+        <item>2 مارس</item>
+        <item>10 مارس</item>
+
+    </string-array>
+    <string name="title_activity_monu_map">Map</string>
+
+
+</resources>

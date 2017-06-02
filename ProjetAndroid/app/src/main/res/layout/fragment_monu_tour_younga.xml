@@ -1,0 +1,67 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ghazi.sfaxcapitaleculture.MonuTourYounga"
+    android:background="#070707">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="1">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="برج يونقة"
+            android:id="@+id/textView19"
+            android:layout_gravity="center_horizontal"
+            android:textColor="#A18860"
+            android:textSize="25dp"
+            android:padding="10dp" />
+
+        <ViewFlipper
+            android:layout_width="wrap_content"
+            android:layout_height="170dp"
+            android:id="@+id/viewFlipper7"
+            android:layout_gravity="center"
+            android:autoStart="true"
+            android:flipInterval="1700"
+            android:layout_weight="0.52">
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:id="@+id/imageView23"
+                android:src="@drawable/younga1"
+                android:layout_gravity="center"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView24"
+                android:src="@drawable/younga2"
+                android:layout_gravity="center"/>
+        </ViewFlipper>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:id="@+id/textView20"
+            android:layout_gravity="right"
+            android:textColor="#A18860"
+            android:text="هو عبارة عن حصن بيزنطي و قد تم  تجديده في العهد الأغلبي، له قيمة أثرية كبيرة و يقع في جنوب مدينة صفاقس."
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="-10dp" />
+    </LinearLayout>
+    </ScrollView>
+</FrameLayout>

@@ -1,0 +1,79 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ghazi.sfaxcapitaleculture.MonuBassin"
+    android:background="#070707">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="1">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="فستقية صفاقس"
+            android:id="@+id/textView14"
+            android:layout_gravity="center_horizontal"
+            android:textColor="#A18860"
+            android:textSize="25dp"
+            android:padding="10dp" />
+
+        <ViewFlipper
+            android:layout_width="321dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/viewFlipper5"
+            android:layout_gravity="center"
+            android:autoStart="true"
+            android:flipInterval="1700"
+            android:layout_weight="0.18">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView19"
+                android:src="@drawable/fes1"
+                android:layout_gravity="center"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView20"
+                android:src="@drawable/fes2"
+                android:layout_gravity="center"/>
+        </ViewFlipper>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:id="@+id/textView15"
+            android:layout_gravity="right"
+            android:textColor="#A18860"
+            android:text="تقع الفسقية الأولى بجانب السور، في حين تقع الثانية شمال المدينة، على بعد 200 م من سور المدينة شمالا. "
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text=" و تعتبر الفسقيتان من أوائل مخازن الماء التي انتفعت بها العامة من الناس، وقد بنيت هذه الفساقي وفق نموذج فساقي القيروان لكنها أصغر حجما"
+            android:id="@+id/textView16"
+            android:layout_gravity="right"
+            android:textColor="#A18860"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp" />
+
+    </LinearLayout>
+    </ScrollView>
+</FrameLayout>

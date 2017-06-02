@@ -1,0 +1,72 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ghazi.sfaxcapitaleculture.MuseumJallouli"
+    android:background="#070707">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="متحف الجلولي"
+                android:id="@+id/textView5"
+                android:layout_gravity="center_horizontal"
+                android:textColor="#A18860"
+                android:textSize="25dp"
+                android:padding="10dp" />
+
+            <ViewFlipper
+                android:layout_width="wrap_content"
+                android:layout_height="285dp"
+                android:id="@+id/viewFlipper3"
+                android:layout_gravity="center"
+                android:autoStart="true"
+                android:flipInterval="1700">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imageView13"
+                    android:src="@drawable/jallouli3"
+                    android:layout_gravity="center"/>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imageView14"
+                    android:src="@drawable/jallouli2"
+                    android:layout_gravity="center"/>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imageView15"
+                    android:src="@drawable/jallouli1"
+                    android:layout_gravity="center"/>
+            </ViewFlipper>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="يقع متحف الفنون والتقاليد الشعبية في منزل عتيق من المدينة المسورة، وقد كان على ملك أسرة الجلولي. وهو منزل جميل يمثل صورة ناطقة وحية للفن الهندسي بمدينة صفاقس ويحتوي المتحف على نماذج من حياة مدينة صفاقس التقليدية خاصة داخل الأسرة. فبيت المِونة، والمطبخ وغرفة النوم، والاستقبال والأكل مجهزة بأثاثها معبرة عن اختصاصاتها في الماضي أيما تعبير كما يعرض المتحف نماذج من حفلات العرس واللباس والحلي والأسلحة والخشب المزخرف والرسوم البلورية، وكلها مظاهر من مختلف الفنون التي كانت رائجة في المدينة، وتعبر عن الذوق أو الترف أو التديـن "
+                android:id="@+id/textView6"
+                android:layout_gravity="right"
+                android:textColor="#A18860"
+                android:textSize="15dp"
+                android:padding="10dp" />
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

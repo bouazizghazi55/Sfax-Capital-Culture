@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:background="#070707">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="1"
+        android:layout_margin="20dp">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="157dp"
+            android:layout_weight="0.50"
+            android:weightSum="1">
+
+            <ImageView
+                android:layout_width="130dp"
+                android:layout_height="563dp"
+                android:id="@+id/imageView29"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/a1"
+                android:layout_weight="1.09" />
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="187dp"
+                android:layout_height="422dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="Medium Text"
+                    android:id="@+id/textView36"
+                    android:layout_gravity="right"
+                    android:textColor="#A18860"
+                    android:textSize="20dp"
+
+
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="Small Text"
+                    android:id="@+id/textView37"
+                    android:layout_gravity="right"
+                    android:textColor="#A18860"
+                    android:textSize="13dp"
+
+                   />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="Small Text"
+                    android:id="@+id/textView35"
+                    android:layout_gravity="right"
+                    android:textColor="#A18860"
+                    android:textSize="13dp"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

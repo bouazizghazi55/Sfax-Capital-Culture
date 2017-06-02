@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:fillViewport="true"
+    android:background="#070707">
+<LinearLayout
+
+   android:layout_margin="5dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#070707"
+    >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="مرحبا بكم في صفاقس ..عاصمة الجنوب"
+            android:id="@+id/textView4"
+            android:textColor="#A18860"
+            android:textSize="25sp"
+            android:gravity="center"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView4"
+            android:src="@drawable/sfax6" />
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:id="@+id/textView2"
+            android:textColor="#A18860"
+            android:text="تقع صفاقس على الساحل الشرقي شمال خليج قابس، وذلك إلى الجنوب من سوسة بنحو 120 كم و 400 كم جنوب العاصمة  تونس، كما تعتبر الولاية القطــب الثانـي بالجمهوريـة التونسيـة نظرا لوزنهـا الديمغرافـي و دورها المتنامي في الحيـاة الإقتصاديــة. و تشتهر صفاقس بنمو شجر الزيتون بها بأعـداد كبيـرة وهي تحظى بعنايـة فائقـة مما جعلها السبـب الرئيسي في ثراء الجهـة وإحـدى ركائـز اقتصــادها"
+            android:layout_alignBottom="@+id/imageView"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="0dp"
+            android:gravity="right"/>
+
+        <TextView
+            android:gravity="right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="مدينة صفاقس ، عاصمة الولاية ، جـذابـة بتراثـها المعماري المتعـدد داخل المدينـة العتيقـة وبتنـوع مشهـدها الحضري بضواحيها، وتُعرف صفاقس بنشاطها الثقافي المميّز الّذي أهّلها لكي تكون عاصمة للثّقافة العربيّة لسنة 2016"
+            android:id="@+id/textView3"
+            android:textColor="#A18860" />
+
+
+<fragment
+android:layout_margin="5dp"
+    android:id="@+id/map"
+    android:name="com.google.android.gms.maps.SupportMapFragment"
+    android:layout_width="match_parent"
+    android:layout_height="500dp"
+    tools:context="com.example.ghazi.sfaxcapitaleculture.PresentationSfax"
+    tools:layout="@layout/activity_presentation_sfax"
+    android:padding="10dp"
+   />
+
+    </LinearLayout>
+    </ScrollView>

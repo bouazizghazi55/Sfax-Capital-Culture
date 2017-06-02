@@ -1,0 +1,82 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ghazi.sfaxcapitaleculture.MuseumKasba"
+    android:background="#070707">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="1">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="متحف الفن المعماري التقليدي"
+            android:id="@+id/textView7"
+            android:layout_gravity="center_horizontal"
+            android:textColor="#A18860"
+            android:textSize="25dp"
+            android:padding="10dp" />
+
+        <ViewFlipper
+            android:layout_width="361dp"
+            android:layout_height="297dp"
+            android:id="@+id/viewFlipper"
+            android:autoStart="true"
+            android:flipInterval="1700"
+            android:paddingBottom="5dp"
+            android:layout_gravity="center">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView7"
+                android:src="@drawable/kasba2"
+                android:layout_gravity="center"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView8"
+                android:src="@drawable/kasba3"
+                android:layout_gravity="center"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView9"
+                android:src="@drawable/kasba4"
+                android:layout_gravity="center"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView6"
+                android:src="@drawable/kasba1"
+                android:layout_gravity="center"/>
+
+        </ViewFlipper>
+
+        <TextView
+            android:layout_width="325dp"
+            android:layout_height="235dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:id="@+id/textView8"
+            android:textColor="#A18860"
+            android:text="يقع متحف العمارة التقليدية في رباط القصبة وهو عبارة على فضاء مفتوح نجد في ساحته معروضات لمختلف انماط العمارة التقليدية بصفاقس من خلال السقوف والبلاطات والعقود والاروقة ومواد البناء التي كانت تستعمل في تشييد  المنازل التقليدية بالمدينة العتيقة منذ القرن السابع عشر. وهذه النماذج عبارة على نسخ او قطع مواد بناء واجزاء من الاسقف والبلاطات. يشتمل المتحف على عدّة أجزاء : فناء كبير يربط كلّ مكوّناته، رواق لمختلف تقنيات البناء وأدوات، نموذج مقطعي لجزء من السور، برجان، الجامع العلوي الذي أصبح يحتوي معرضا للمنشآت الدّينية في المدينة العتيقة، الجامع السفلي وصهريج الماء وباب الغدر، معرض للأبراج التقليدية المنتشرة بضواحي المدينة العتيقة، معرض للمنشآت العمومية في المدينة العتيقة و معرض للأقفال والمفاتيح والحروجات الحديدية"
+            android:padding="10dp"
+            android:layout_gravity="center"
+            android:layout_weight="0.19" />
+
+    </LinearLayout>
+    </ScrollView>
+</FrameLayout>
